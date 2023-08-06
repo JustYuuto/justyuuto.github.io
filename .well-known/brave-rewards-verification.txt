@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: nethermctv.github.io
-Token: 433f7fe67ebce9ac0545a3bfa0fa78e8f87259d537e796401f872fa14e0bec9e
