@@ -1,0 +1,7 @@
+{
+  "name": "Yuuto",
+  "short_name": "Yuuto",
+  "icons": [{ 
+    "src": "/favicon.ico", "sizes": "225x225", "type": "image/icon"
+  }]
+}
