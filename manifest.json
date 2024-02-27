@@ -3,7 +3,8 @@
   "short_name": "Yuuto",
   "start_url": "/",
   "display": "standalone",
-  "icons": [{ 
-    "src": "/favicon.ico", "sizes": "225x225", "type": "image/icon"
-  }]
+  "icons": [
+    { "src": "/favicon.ico", "sizes": "225x225", "type": "image/icon" },
+    { "src": "https://avatars.githubusercontent.com/u/55290516?v=4", "sizes": "460x460", "type": "image/png" } 
+  ]
 }
