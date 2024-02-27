@@ -2,6 +2,7 @@
   "name": "Yuuto",
   "short_name": "Yuuto",
   "start_url": "/",
+  "display": "standalone",
   "icons": [{ 
     "src": "/favicon.ico", "sizes": "225x225", "type": "image/icon"
   }]
