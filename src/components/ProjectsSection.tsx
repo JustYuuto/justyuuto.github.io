@@ -61,14 +61,14 @@ export default function ProjectsSection() {
 
   return (
     <section id="projects">
-      <div className="relative flex min-h-screen flex-col items-center justify-center text-center">
+      <div className="relative flex min-h-screen flex-col items-center justify-center pt-20 text-center">
         <div className="max-w-lg space-y-4">
           <h1 className="text-4xl font-bold">Projects</h1>
           <p>
             Here are some of the projects I've worked on.
           </p>
         </div>
-        <div className="mx-4 my-8 grid grid-cols-1 gap-8 xl:grid-cols-2 2xl:grid-cols-3">
+        <div className="mx-4 my-8 grid grid-cols-1 gap-8 xl:grid-cols-2">
           {projects.map(project => (
             <div key={project.url} className="relative flex w-full flex-col space-y-4 rounded-lg border p-4 text-left xl:w-[32rem]">
               <img src={project.image} alt={project.name} className="mx-auto size-auto rounded-lg object-cover" draggable={false} />
