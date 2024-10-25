@@ -11,7 +11,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="absolute inset-x-0 top-0 flex items-center justify-between px-8 py-4">
+    <header className="fixed inset-x-0 top-0 z-50 flex items-center justify-between px-8 py-4 backdrop-blur">
       <div>
         <span role="link" className="cursor-pointer text-2xl font-bold" onClick={() => {
           scroll(0, 0);

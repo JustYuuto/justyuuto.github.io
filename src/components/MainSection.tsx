@@ -1,7 +1,7 @@
 export default function MainSection({ user }: { user: LanyardUser }) {
   return (
     <section id="main">
-      <div className="flex h-screen flex-col items-center justify-center text-center">
+      <div className="relative flex h-screen flex-col items-center justify-center text-center">
         <div className="max-w-lg space-y-4">
           <img src={
             `https://cdn.discordapp.com/avatars/${user.discord_user.id}/${user.discord_user.avatar}.png?size=256`
@@ -10,6 +10,11 @@ export default function MainSection({ user }: { user: LanyardUser }) {
           <p>
             I'm a 17 yo developer from France.
           </p>
+        </div>
+        <div className="absolute bottom-24">
+          <span className="text-sm text-gray-500">
+            Scroll down to see my projects
+          </span>
         </div>
       </div>
     </section>

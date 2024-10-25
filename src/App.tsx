@@ -2,6 +2,7 @@ import Header from './components/Header.tsx';
 import MainSection from './components/MainSection.tsx';
 import {useEffect, useState} from 'react';
 import Loading from './components/Loading.tsx';
+import ProjectsSection from './components/ProjectsSection.tsx';
 
 function App() {
   const [user, setUser] = useState(null);
@@ -18,6 +19,7 @@ function App() {
       {!user ? <Loading /> : <>
         <Header />
         <MainSection user={user} />
+        <ProjectsSection />
       </>}
     </>
   );
