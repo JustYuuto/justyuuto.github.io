@@ -71,7 +71,7 @@ export default function ProjectsSection() {
         <div className="mx-4 my-8 grid grid-cols-1 gap-8 xl:grid-cols-2">
           {projects.map(project => (
             <div key={project.url} className="relative flex w-full flex-col space-y-4 rounded-lg border p-4 text-left xl:w-[32rem]">
-              <img src={project.image} alt={project.name} className="mx-auto size-auto rounded-lg object-cover" draggable={false} />
+              <img src={project.image} alt={project.name} className="mx-auto size-auto rounded-lg object-cover" loading="lazy" draggable={false} />
               <div className="flex items-center justify-between">
                 <h2 className="truncate text-2xl font-bold" title={project.name}>{project.name}</h2>
                 <a href={project.url} className="text-blue-500 duration-150 hover:text-blue-400" target="_blank">

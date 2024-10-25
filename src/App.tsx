@@ -3,6 +3,7 @@ import MainSection from './components/MainSection.tsx';
 import {useEffect, useState} from 'react';
 import Loading from './components/Loading.tsx';
 import ProjectsSection from './components/ProjectsSection.tsx';
+import ContactSection from './components/ContactSection.tsx';
 
 function App() {
   const [user, setUser] = useState(null);
@@ -20,6 +21,7 @@ function App() {
         <Header />
         <MainSection user={user} />
         <ProjectsSection />
+        <ContactSection user={user} />
       </>}
     </>
   );
