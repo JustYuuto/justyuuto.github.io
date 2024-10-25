@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "eslint-plugin-tailwindcss": "^3.17.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
