@@ -52,7 +52,7 @@ export default function ProjectsSection() {
     'TypeScript': 'https://www.typescriptlang.org',
     'Electron': 'https://www.electronjs.org',
     'Vite': 'https://vite.dev',
-    'React': 'https://react.org',
+    'React': 'https://react.dev',
     'Cloudflare Pages': 'https://pages.cloudflare.com',
     'Python': 'https://www.python.org',
     'pywidevine': 'https://pypi.org/project/pywidevine/1.0.0/',
