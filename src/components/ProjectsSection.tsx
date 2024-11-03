@@ -4,7 +4,7 @@ import spotify from '../img/spotify.png';
 import {Fragment} from 'react';
 
 type Technology = 'Next.js' | 'Tailwind' | 'PostgreSQL' | 'Sequelize' | 'Node.js' | 'TypeScript' | 'Electron' | 'Vite' |
-  'React' | 'Cloudflare Pages' | 'Python' | 'pywidevine' | 'ffmpeg';
+  'React' | 'GitHub Pages' | 'Python' | 'pywidevine' | 'ffmpeg';
 
 export default function ProjectsSection() {
   const projects: {
@@ -33,7 +33,7 @@ export default function ProjectsSection() {
       description: 'My personal website, made with Vite, React and Tailwind.',
       image: yuuto,
       url: 'https://yuuto.dev',
-      madeWith: ['Vite', 'React', 'Tailwind', 'Cloudflare Pages']
+      madeWith: ['Vite', 'React', 'Tailwind', 'GitHub Pages']
     },
     {
       name: 'Spotify Downloader',
@@ -53,7 +53,7 @@ export default function ProjectsSection() {
     'Electron': 'https://www.electronjs.org',
     'Vite': 'https://vite.dev',
     'React': 'https://react.dev',
-    'Cloudflare Pages': 'https://pages.cloudflare.com',
+    'GitHub Pages': 'https://pages.github.com',
     'Python': 'https://www.python.org',
     'pywidevine': 'https://pypi.org/project/pywidevine/1.0.0/',
     'ffmpeg': 'https://ffmpeg.org'
