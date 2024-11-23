@@ -24,7 +24,7 @@ export default function ProjectsSection() {
     {
       name: 'Deezer Discord RPC',
       description: 'Deezer Discord RPC is a Discord Rich Presence that displays the song you are listening to on Deezer.',
-      image: 'https://raw.githubusercontent.com/JustYuuto/deezer-discord-rpc/master/screenshots/rpc_on_profile.png',
+      image: 'https://raw.githubusercontent.com/JustYuuto/deezer-discord-rpc/master/screenshots/rpc.png',
       url: 'https://github.com/JustYuuto/deezer-discord-rpc',
       madeWith: ['Node.js', 'TypeScript', 'Electron']
     },
