@@ -22,7 +22,8 @@ const getLargeImage = (activity: LanyardUser['activities'][0]): string => {
 };
 
 export default function ContactSection({ user }: { user: LanyardUser }) {
-  const activity = user.activities?.length ? user.activities[0] : null;
+  const activities = user.activities.filter((activity) => activity.type !== 4) || [];
+  const activity = activities.length ? activities[0] : null;
 
   return (
     <section id="contact">
