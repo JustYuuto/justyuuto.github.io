@@ -1,7 +1,7 @@
 import miwa from '../img/miwa.png';
 import yuuto from '../img/yuuto.png';
 import spotify from '../img/spotify.png';
-import {Fragment} from 'react';
+import { Fragment } from 'react';
 
 type Technology = 'Next.js' | 'Tailwind' | 'PostgreSQL' | 'Sequelize' | 'Node.js' | 'TypeScript' | 'Electron' | 'Vite' |
   'React' | 'GitHub Pages' | 'Python' | 'pywidevine' | 'ffmpeg';

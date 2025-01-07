@@ -27,6 +27,7 @@ export default tseslint.config(
       quotes: ['error', 'single'],
       semi: ['error', 'always'],
       indent: ['error', 2, { SwitchCase: 1 }],
+      'object-curly-spacing': ['error', 'always'],
     },
   },
   ...tailwind.configs['flat/recommended']
