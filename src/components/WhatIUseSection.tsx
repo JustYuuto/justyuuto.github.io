@@ -1,12 +1,12 @@
 import {
-  SiCloudflare, SiCloudflareHex, SiDocker, SiDockerHex, SiGithub, SiNextdotjs, SiReact, SiReactHex, SiTailwindcss,
-  SiTailwindcssHex, SiWebstorm, SiWebstormHex
+  SiBun, SiCloudflare, SiCloudflareHex, SiDocker, SiDockerHex, SiGithub, SiNextdotjs, SiReact, SiReactHex, SiTailwindcss,
+  SiTailwindcssHex, SiWebstorm
 } from '@icons-pack/react-simple-icons';
 
 export default function WhatIUseSection() {
   const items = [
     {
-      name: 'WebStorm', icon: <SiWebstorm color={SiWebstormHex} />, link: 'https://www.jetbrains.com/webstorm/',
+      name: 'WebStorm', icon: <SiWebstorm color="#fbfe51" />, link: 'https://www.jetbrains.com/webstorm/',
       use: 'IDE for JavaScript development'
     },
     {
@@ -32,6 +32,10 @@ export default function WhatIUseSection() {
     {
       name: 'Next.js', icon: <SiNextdotjs color="#fff" />, link: 'https://nextjs.org/',
       use: 'React framework'
+    },
+    {
+      name: 'Bun', icon: <SiBun color="#fff" />, link: 'https://bun.sh/',
+      use: 'Fast JavaScript bundler, runtime and package manager'
     }
   ];
 
@@ -46,7 +50,7 @@ export default function WhatIUseSection() {
       <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2">
         {items.map((item, index) => (
           <div key={index} className="flex text-left items-center gap-4 p-4 bg-gray-800 rounded-lg w-full md:max-w-96">
-            {item.icon}
+            <div className="size-6">{item.icon}</div>
             <div>
               <a href={item.link} target="_blank" rel="noreferrer" className="font-bold">{item.name}</a>
               <p>{item.use}</p>
