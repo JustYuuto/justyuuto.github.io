@@ -13,6 +13,7 @@ export default function ContactSection() {
   const links = [
     { icon: <SiDiscord />, link: 'https://discord.com/users/269415459735076864', label: 'Discord', color: SiDiscordHex },
     { icon: <SiGithub />, link: 'https://github.com/JustYuuto', label: 'GitHub', color: SiGithubHex },
+    { icon: <img src="https://miwa.lol/_next/static/media/miwa-48.0e72cf55.png" />, link: 'https://miwa.lol/yuuto', label: 'Miwa', color: '#0e0d26' },
     { icon: <SiX />, link: 'https://x.com/YuutoGoat', label: 'Twitter/X', color: SiXHex },
     { icon: <SiSteam />, link: 'https://steamcommunity.com/id/PasYuuto/', label: 'Steam', color: SiSteamHex },
     { icon: <SiInstagram />, link: 'https://www.instagram.com/yuutocmoi', label: 'Instagram', color: SiInstagramHex },
